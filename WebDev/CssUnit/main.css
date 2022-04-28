@@ -1,0 +1,11 @@
+html{
+    font-size: 2rem;
+}
+.box{
+    width: calc(500px/2);
+    /* hàm calc */
+    height: 150px;
+    background: rgb(202, 28, 194);
+    /* hàm rgb */
+    
+}

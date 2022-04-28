@@ -1,0 +1,12 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(47, 36, 190);
+    color: #fff;
+    border: 4px red solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+}

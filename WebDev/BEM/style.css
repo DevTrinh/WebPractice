@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    font-family: "Helvetica Neue";
+    background-color: #f4f4f5;
+}
+
+body>div{
+    margin: auto;
+}
+
+/* BLOCK */
+
+.btn{
+    display: inline-block;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 12px 48px;
+    cursor: pointer;
+    /* hiệu ứng của quá trình chuyển động trong 0.2s */
+    transition: opacity .2s ease;
+}
+
+
+/*  nhìn btn tiếp theo để css */
+.btn + .btn{
+    margin-left: 22px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+    
+.btn--success{
+    background-color: greenyellow;
+}
+
+.btn--warn{
+    background-color: yellow;
+}
+
+.btn--danger{
+    background-color: red;
+}
+
+.btn--disable{
+    opacity: 0.5 !important;
+    cursor: default;
+}

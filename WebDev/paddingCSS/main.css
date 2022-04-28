@@ -1,0 +1,25 @@
+.box{
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left
+}
+.box1{
+    background-color: rgb(68, 61, 61);
+    padding: 10px;
+
+}
+.box2{
+    background-color: rgb(160, 11, 11);
+    padding: 10px 12px;
+}
+.box3{
+    background-color: rgb(25, 11, 158);
+    padding: 10px 12px 1px;
+    border-top: 10px solid #333;
+    margin-left: 10px;
+    margin: 10px 20px;
+}

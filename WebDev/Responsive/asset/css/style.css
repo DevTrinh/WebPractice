@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* PC: 1024px
+    TABLET: >=740px & < 1024px
+    MOBILE:  < 740px*/
+
+
+    .pc,.tablet,.mobile{
+        font-size: 68px;
+        padding: 30px 0;
+        text-transform: uppercase;
+        display:none;
+    }
+    
+    /* PC */
+@media (min-width: 1024px){
+    /*độ rộng tối đa 800px thì sẽ chạy
+    sẽ hiểu từ 0 tới 800 nó chạy*/
+    .pc,.tablet,.mobile{
+        color: red;
+    }
+    .pc{
+        display: block;
+    }
+}
+
+
+
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .pc,.tablet,.mobile{
+        color: pink;
+    }
+    .tablet{
+        display: block;
+    }
+}
+
+@media (max-width: 739px){
+    .pc,.tablet,.mobile{
+        color: pink;
+    }
+    .mobile{
+        display: block;
+    }
+}
+
+html{
+    text-align: center;
+}
+
+
+h1{
+    font-size: 80px;
+}

@@ -1,0 +1,17 @@
+h3{
+    --color-main: yellow;
+    /* biến cục bộ */
+    color: var(--color-main);
+    font-size: 30px;
+}
+#first_heading{
+    color: var(--text-color);
+    /* gọi biến */
+}
+.second_heading{
+    color: rgb(67, 209, 54);
+}
+:root{
+    --text-color: red;
+    /* đặt biến tỏng css */
+}
